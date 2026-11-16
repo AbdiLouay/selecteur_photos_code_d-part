@@ -1,45 +1,7 @@
+#total em { color: red; font-weight: bold; }
 
-#total span {
-    color: red;
-    font-weight: bold;
-    font-style: italic; 
-}
+#photo-list { display: flex; flex-wrap: wrap; width: 800px; list-style: none; padding: 0; }
 
-/* Nombre de photos sélectionnées : rouge et gras (l'italique vient de <em>) */
-#total em {
-    color: red;
-    font-weight: bold;
-}
-#photo-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    list-style-type: none;
-    padding: 0;
-}
-
-/* Éléments de la liste */
-#photo-list li {
-    margin: 1em;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Animation du changement de couleur */
-}
-
-#photo-list li img {
-    max-width: 100px; 
-    display: block;
-}
-
-/* Au survol */
-#photo-list li:hover {
-    background-color: silver;
-}
-
-
-/* Élément sélectionné */
-
-#photo-list li.selected {
-    background-color: forestgreen;
-}
+#photo-list li { margin: 1em; padding: .5em; cursor: pointer; transition: background-color .3s; }
+#photo-list li:hover { background: silver; }
+#photo-list li.selected { background: forestgreen; }
