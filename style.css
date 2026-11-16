@@ -1,11 +1,11 @@
-/* Style du nombre de photos sélectionnées (rouge et gras) */
+
 #total span {
     color: red;
     font-weight: bold;
-    font-style: italic; /* Le chiffre 0 doit s'afficher en italique initialement */
+    font-style: italic; 
 }
 
-/* Mise en page de la liste des photos */
+
 #photo-list {
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
     padding: 0;
 }
 
-/* Style des éléments de la liste */
+
 #photo-list li {
     margin: 1em;
     padding: 0.5em;
@@ -23,18 +23,18 @@
     cursor: pointer;
 }
 
-/* Taille des images pour s'adapter proprement */
+
 #photo-list li img {
-    max-width: 100px; /* Ajustez selon vos besoins visuels */
+    max-width: 100px; 
     display: block;
 }
 
-/* Au survol d'un élément */
+
 #photo-list li:hover {
     background-color: silver;
 }
 
-/* Quand un élément a la classe selected */
+
 #photo-list li.selected {
     background-color: forestgreen;
 }
