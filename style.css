@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 #total span {
     color: red;
@@ -6,16 +5,11 @@
     font-style: italic; 
 }
 
-
-=======
 /* Nombre de photos sélectionnées : rouge et gras (l'italique vient de <em>) */
 #total em {
     color: red;
     font-weight: bold;
 }
-
-/* Photos les unes à côté des autres, sur 800px, sans puces */
->>>>>>> f837132dfaf3da21d70be52634c92bc47146c6bd
 #photo-list {
     display: flex;
     flex-wrap: wrap;
@@ -24,11 +18,7 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
-
-=======
 /* Éléments de la liste */
->>>>>>> f837132dfaf3da21d70be52634c92bc47146c6bd
 #photo-list li {
     margin: 1em;
     padding: 0.5em;
@@ -37,30 +27,19 @@
     transition: background-color 0.3s ease; /* Animation du changement de couleur */
 }
 
-<<<<<<< HEAD
-
 #photo-list li img {
     max-width: 100px; 
     display: block;
 }
 
-
-=======
-#photo-list li img {
-    display: block;
-}
-
 /* Au survol */
->>>>>>> f837132dfaf3da21d70be52634c92bc47146c6bd
 #photo-list li:hover {
     background-color: silver;
 }
 
-<<<<<<< HEAD
 
-=======
 /* Élément sélectionné */
->>>>>>> f837132dfaf3da21d70be52634c92bc47146c6bd
+
 #photo-list li.selected {
     background-color: forestgreen;
 }
